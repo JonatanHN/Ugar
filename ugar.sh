@@ -5,6 +5,34 @@
 #Author         : JonatanHN       
 #Email          : [email protected] 
 ################################################################################
-echo 'Ejecuta este archivo con sudo';
+echo '                                                            ' 
+echo '                                                            '
+echo '------------------------------------------------------------'
+echo '   	$$\   $$\  $$$$$$\   $$$$$$\  $$$$$$$\'  
+echo '   	$$ |  $$ |$$  __$$\ $$  __$$\ $$  __$$\' 
+echo '   	$$ |  $$ |$$ /  \__|$$ /  $$ |$$ |  $$ |'
+echo '   	$$ |  $$ |$$ |$$$$\ $$$$$$$$ |$$$$$$$  |'
+echo '   	$$ |  $$ |$$ |\_$$ |$$  __$$ |$$  __$$< '
+echo '   	$$ |  $$ |$$ |  $$ |$$ |  $$ |$$ |  $$ |'
+echo '   	\$$$$$$  |\$$$$$$  |$$ |  $$ |$$ |  $$ |'
+echo '   	 \______/  \______/ \__|  \__|\__|  \__|'
+echo '---------------------pwd by JonatanHN-----------------------'
+echo '                                                            ' 
+echo '                                                            '
 
-apt update; apt upgrade; apt autoremove;
+echo 'EJECUTANDO VERIFICACION DE ACTUALIZACIONES DE DEPENDENCIAS';
+echo '                                                            ' 
+echo '                                                            '
+apt update;
+echo '                                                            ' 
+echo '                                                            ' 
+echo 'EJECUTANDO ACTUALIZACIONES DE DEPENDENCIAS';
+echo '                                                            ' 
+echo '                                                            '
+apt upgrade; 
+echo '                                                            ' 
+echo '                                                            '
+echo 'EJECUTANTO AUTOREMOVE PARAR ELIMINAR DEPENDENCIAS QUE ESTEN DUPLICADAS';
+echo '                                                            ' 
+echo '                                                            '
+apt autoremove;
