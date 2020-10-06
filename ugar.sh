@@ -36,3 +36,6 @@ echo 'EJECUTANTO AUTOREMOVE PARAR ELIMINAR DEPENDENCIAS QUE ESTEN DUPLICADAS';
 echo '                                                            ' 
 echo '                                                            '
 apt autoremove;
+echo '                                                            ' 
+echo '                  FINALIZACION DEL SCRIPT                              ';
+echo '                                                            ' 
